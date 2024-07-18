@@ -1,0 +1,34 @@
+.collapse button {
+    padding: 10px 20px;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 03px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.collapse button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand{
+    //border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    //justify-content: space-around;
+    height: 35px;
+}
+
+.navbar-brand h1{
+    font-weight: bold; /* Rendre le texte en gras */
+    font-size: 24px; /* Ajustez la taille du texte si nécessaire */
+    color: #000; /* Ajustez la couleur du texte si nécessaire */
+}

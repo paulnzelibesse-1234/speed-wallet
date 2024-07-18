@@ -1,0 +1,139 @@
+// .ecriture{
+//     //border: 1px yellow solid;
+//     height: 250px;
+//     width: 1100px;
+//     background-color: white;  
+//     display: flex;
+//     //justify-content: space-between;
+//     align-items: center;
+//     margin-left: 110px;
+//     margin-top: 60px; 
+// }
+
+// .ecri1{
+//     //border: 1px red solid;
+//     background-color:white;
+//     height: 200px;
+//     width: 500px;
+// }
+
+// .ecri1 h2 {
+//     font-weight: bold;
+//     font-size: 3em;
+//     font-family: Calibri, sans-serif; /* Appliquer la police Calibri */
+//     padding-left: 200px; /* Déplacer le texte vers la droite (ajustez la valeur selon vos besoins) */
+// }
+
+// .ecri1 h1 {
+//     //font-weight: bold;
+//     font-size: 48px;
+//     font-family: Open Sans, sans-serif; /* Appliquer la police Calibri */
+//     padding-left: 10px;
+//     color: rgb(0, 0, 0);
+//     font-style: normal;
+//     font-weight:bold;
+
+// }
+
+
+// .ecri1 h1{
+//     color: black;
+//     size: 25px;
+//     font-size: 40px;
+//     text-align: center; 
+//     font-family: "Open Sans", sans-serif;
+//     line-height: 66px;
+//     font-style: normal;
+//     font-weight: 300;
+// }
+
+// .ecri2{
+//     //border: 1px black solid;
+//     font-family: "Open Sans", sans-serif;
+//     //background-color: white;
+//     margin-top: 1px;
+//     margin-right: -09px;
+//     height: 80px;
+//     width: 600px;
+// }
+
+// .ecri2 h2{
+//     font-size: 15px;
+//     font-family: "Open Sans",sans-serif;
+//     font-style: normal;
+//     font-weight: 300;
+//     color: rgb(36, 41, 46);
+// }
+
+body {
+    font-family: 'Calibri', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fff;
+}
+
+
+.container {
+    //border: 1px black solid;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.highlight {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+
+
+///
+/// 
+/// 
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    //border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    //box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-item img {
+    max-width: 100%;
+    max-height: 80px;
+}

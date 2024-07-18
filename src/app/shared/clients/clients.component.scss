@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header-container {
+    text-align: left;
+    max-width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    font-weight: 700;
+    font-size: 1em;
+    color: #000;
+}
+
+p {
+    font-size: 0.9em;
+    color: #666;
+}
