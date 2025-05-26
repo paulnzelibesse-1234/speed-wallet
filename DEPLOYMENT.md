@@ -44,7 +44,7 @@ Dans notre cas particulier, les éléments suivants seront requis :</p>
   
 <h2 align="center"><strong>🖼️ Un aperçu en image</strong></h2>
 <p align="center">
-  <img src="chemin/vers/ton-image.png" alt="Aperçu Oracle Linux 8" width="600">
+  <img src="/assets/images/cap1.png" alt="Aperçu Oracle Linux 8" width="600">
 </p>
 <p>Nous utilisons un <strong>serveur Oracle Linux 8</strong>, ce qui signifie que les commandes que nous allons utiliser commenceront par <code>dnf</code>.</p>
 
